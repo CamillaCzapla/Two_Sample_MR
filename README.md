@@ -6,14 +6,16 @@ For ~200 genera of gut microbiota, TwoSampleMR can be run in a loop format with 
 
 loop TwoSampleMR script: /home/camilla/TwoSampleMR/MiBioGen_Summary_Statistics/run_TwoSampleMR_intersection_then_clumping.R
 
-python script for loop: /home/camilla/TwoSampleMR/MiBioGen_Summary_Statistics/00_mibiogen_panukbb_4_twosampleMR_heart.py
+python script (MiBioGen and panukb intersection): /home/camilla/TwoSampleMR/MiBioGen_Summary_Statistics/00_mibiogen_panukbb_4_twosampleMR_heart.py
 
-once through TwoSampleMR script: /home/camilla/TwoSampleMR/MiBioGen_Summary_Statistics/run_TwoSampleMR_chrpos.R
+once through TwoSampleMR script (2 panukb files): /home/camilla/TwoSampleMR/MiBioGen_Summary_Statistics/run_TwoSampleMR_chrpos.R
 
-python script for once through: /home/camilla/TwoSampleMR/MiBioGen_Summary_Statistics/panukbb_rsid_from_chrpos.py
+once through TwoSampleMR script (MiBioGen and panukb): /home/camilla/TwoSampleMR/MiBioGen_Summary_Statistics/run_mbg_oncethrough.R
 
-*python script must be edited for the amount of columns in the sum stats file
+python script for once through (2 panukb files intersection): /home/camilla/TwoSampleMR/MiBioGen_Summary_Statistics/panukbb_rsid_from_chrpos.py
 
-*R script variables must be edited for the names of the sumstats files and phenotype descriptions
+*python scripts must be edited for the amount of columns in the sum stats file and pval conversion
+
+*R script variables must be edited for the names of the sumstats files/file paths and phenotype descriptions
 
 link to MR project summary Google Doc: https://drive.google.com/drive/folders/1edSytZiMqrDo-g1mreTJ7r2kSfdOlU7X?usp=sharing
